@@ -4,7 +4,7 @@ select *
 from portfolio..CovidDeaths$
 where continent is not null 
 order by 3,4
---i later found out there are nukk vakues in continent
+--i later found out there are null values in continent column
 --select * 
 --from portfolio..CovidVaccinations$
 --order by 3,4
